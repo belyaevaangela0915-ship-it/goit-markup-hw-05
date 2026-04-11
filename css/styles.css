@@ -541,8 +541,9 @@ letter-spacing: 0.02em;
 }
 
 .footer-subcontainer{
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: baseline; /* 👈 важливо */
+  justify-content: space-between; /* 👈 розкидає по ширині */
 }
 
 .container-footer-text {
@@ -660,7 +661,7 @@ letter-spacing: 0.02em;
     background-color: #fcfcfc;
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
-    min-width: 408px;
+    max-width: 408px;
     position: relative;
 }
 
