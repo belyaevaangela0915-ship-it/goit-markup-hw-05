@@ -542,7 +542,15 @@ letter-spacing: 0.02em;
 
 .footer-subcontainer{
     display: flex;
-    gap: 120px;
+    align-items: flex-start;
+}
+
+.container-footer-text {
+  margin-right: 120px;
+}
+
+.container-footer-social-div {
+  margin-right: 80px;
 }
 
 .container-footer-text {
