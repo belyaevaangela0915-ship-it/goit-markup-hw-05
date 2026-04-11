@@ -534,7 +534,7 @@ letter-spacing: 0.02em;
 .container-footer {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    justify-content: space-between;
 }
 
 .container-footer-text {
@@ -839,9 +839,12 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    width: 169px;
+    max-height: 56px;
     color: white;
     border: none;
     cursor: pointer;
+    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
