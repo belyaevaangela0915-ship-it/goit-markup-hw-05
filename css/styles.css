@@ -520,6 +520,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    
     color: #fff;
 }
 
@@ -535,11 +536,19 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+
+
+}
+
+.footer-subcontainer{
+    display: flex;
+    gap: 120px;
 }
 
 .container-footer-text {
     display: inline-block;
     max-width: 264px;
+    
 }
 
 .footer-linked-icons-ul {
