@@ -17,7 +17,7 @@ body {
     letter-spacing: 0.03em;
     color: #2E2F42;
 }
-/*.       */
+
 
 a {
     text-decoration: none;
@@ -445,13 +445,6 @@ letter-spacing: 0.02em;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-
-
-.container-footer-text {
-    max-width: 264px;
-}
-
-
 .our-portfolio-container-img-div {
     position: relative;
     overflow: hidden;
@@ -508,10 +501,8 @@ letter-spacing: 0.02em;
     background-color: #31d0aa;
 }
 
-.container-footer-social-div {
-    display: inline-block;
-    max-width: 208px;
-}
+
+
 
 .footer-social-p,
 .footer-form-p {
@@ -532,33 +523,36 @@ letter-spacing: 0.02em;
     margin-top: 16px;
 }
 
-.container-footer {
+/* .container-footer {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 
 
-}
+} */
 
 .footer-subcontainer{
   display: flex;
-  align-items: baseline; /* 👈 важливо */
-  justify-content: space-between; /* 👈 розкидає по ширині */
+  align-items: baseline; 
+  justify-content: space-between; 
 }
 
-.container-footer-text {
-  margin-right: 120px;
-}
 
-.container-footer-social-div {
-  margin-right: 80px;
-}
 
 .container-footer-text {
     display: inline-block;
     max-width: 264px;
+    margin-right: 120px;
     
 }
+
+.container-footer-social-div {
+    display: inline-block;
+    max-width: 208px;
+    margin-right: 80px;
+}
+
+
 
 .footer-linked-icons-ul {
     margin-top: 16px;
