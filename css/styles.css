@@ -530,7 +530,7 @@ letter-spacing: 0.02em;
 
 
 } */
-
+/*
 .footer-subcontainer{
   display: flex;
   align-items: baseline; 
@@ -552,7 +552,26 @@ letter-spacing: 0.02em;
     margin-right: 80px;
 }
 
+*/
 
+.footer-subcontainer {
+  display: flex;
+  align-items: baseline;
+}
+
+.container-footer-text {
+  max-width: 264px;
+    margin-right: 120px;
+}
+
+.container-footer-social-div {
+  max-width: 208px;
+    margin-right: 80px;
+}
+
+.container-form {
+  margin-left: auto;
+}.  
 
 .footer-linked-icons-ul {
     margin-top: 16px;
@@ -721,6 +740,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
+    margin-right: 4px;
     
 }
 
