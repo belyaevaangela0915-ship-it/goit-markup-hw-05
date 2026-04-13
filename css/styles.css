@@ -568,10 +568,10 @@ letter-spacing: 0.02em;
   max-width: 208px;
     margin-right: 80px;
 }
-
+/*
 .container-form {
   margin-left: auto;
-}.  
+}  */
 
 .footer-linked-icons-ul {
     margin-top: 16px;
@@ -590,6 +590,7 @@ letter-spacing: 0.02em;
     border-style: solid;
     border-color: #fff;
     border-radius: 4px;
+    margin-bottom: 4px;
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -740,7 +741,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-right: 4px;
+    
     
 }
 
