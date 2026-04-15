@@ -557,6 +557,7 @@ letter-spacing: 0.02em;
 .footer-subcontainer {
   display: flex;
   align-items: baseline;
+  margin-left: auto;
 }
 
 .container-footer-text {
@@ -714,6 +715,7 @@ letter-spacing: 0.02em;
 .close-modal-icon {
     width: 8px;
     height: 8px;
+    color: #2e2f42;
 }
 
 
